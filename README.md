@@ -10,3 +10,5 @@
 ## Research idea
 **Title:** TBD  
 **Proposal:** TBA
+
+https://www.kaggle.com/code/mahmoudramzy97/stroke-prediction
