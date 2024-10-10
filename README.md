@@ -5,7 +5,7 @@
 | Mattias Sahlstrand      |  | mattias@hanyang.ac.kr                  |
 | Pontus Donnér  |  |                             |
 | Belen Herranz Campusano |  |    |
-| Hugo Dominique Nicolay |  |    |
+| Hugo Nicolay |  | nicolayhugo1@gmail.com   |
 
 ## Research idea
 **Title:** TBD  
