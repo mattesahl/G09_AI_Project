@@ -8,7 +8,6 @@
 | Hugo Nicolay |  | nicolayhugo1@gmail.com   |
 
 ## Research idea
-**Title:** TBD  
-**Proposal:** TBA
-
-https://www.kaggle.com/code/mahmoudramzy97/stroke-prediction
+**Title:** Stroke prediction  
+**Proposal:**
+We will be using the data set https://www.kaggle.com/datasets/fedesoriano/stroke-prediction-dataset to build an AI-model that can predict whether or not a person is likely to have a stroke, based on information among glucose levels, BMI, and marriage status.
