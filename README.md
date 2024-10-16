@@ -3,7 +3,7 @@
 | Name              | Organization                                | Email                                |
 |-------------------|---------------------------------------------|--------------------------------------|
 | Mattias Sahlstrand      | Hanyang University | mattias@hanyang.ac.kr                  |
-| Pontus Donnér  | Hanyang University |                             |
+| Pontus Donnér  | Hanyang University | 100495930@alumnos.uc3m.es                       |
 | Belen Herranz Campusano | Hanyang University |    |
 | Hugo Nicolay | Hanyang University | nicolayhugo1@gmail.com   |
 
