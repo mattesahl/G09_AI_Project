@@ -17,7 +17,24 @@ During this project, we will analyze a dataset (www.kaggle.com/datasets/fedesori
 
 ## Dataset
 
-## Methodology
+## :gear:	Methodology
+### Libraries
+First, we import the necessary libraries, which included tools for data manipulation (pandas), visualization (matplotlib and seaborn), machine learning (scikit-learn), and oversampling techniques (imblearn). 
+
+```python
+import pandas as pd
+import matplotlib.pyplot as plt
+import seaborn as sns
+from sklearn.preprocessing import LabelEncoder
+from sklearn.model_selection import train_test_split
+from sklearn.ensemble import RandomForestClassifier
+from sklearn.metrics import (
+    accuracy_score, classification_report, confusion_matrix, roc_curve, roc_auc_score
+)
+from imblearn.over_sampling import SMOTE
+from sklearn.model_selection import cross_val_score
+
+Additionally, we configured the visualization settings to ensure consistency and readability in our plots.
 
 ## Evaluation & Analysis
 
