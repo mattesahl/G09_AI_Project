@@ -156,6 +156,22 @@ plt.show()
 
 ## Evaluation & Analysis
 
-## Related Work
+## :books: Related Work
+### Stroke Prediction with Machine Learning
+Stroke Prediction Dataset on Kaggle: This is the dataset we were working with. The Kaggle page contains a detailed description of the dataset, including the characteristics of the variables and some prior analyses.
+[Stroke Prediction Dataset on Kaggle](https://www.kaggle.com/datasets/fedesoriano/stroke-prediction-dataset)
 
+Saumya Gupta’s Stroke Prediction - Detailed EDA & 7 ML Models: Reference from another Kaggle user that worked with the same dataset
+[Stroke Prediction - Detailed EDA & 7 ML Models](https://www.kaggle.com/code/saumyagupta2025/stroke-prediction-detailed-eda-7-ml-models)
+
+### Using Random Forest for Prediction
+Random Forest in Scikit-learn: The official Scikit-learn documentation explains how to implement and use the Random Forest algorithm for classification.
+[Random Forest in Scikit-learn](https://scikit-learn.org/stable/modules/ensemble.html#random-forest)
+
+Random Forest in Practice: A detailed explanation and practical guide on how to implement Random Forests in Python using Scikit-learn, from setting up the environment to interpreting results.
+[Random Forest Practical Guide​](https://willkoehrsen.github.io/data%20science/machine%20learning/random-forest-simple-explanation/)
+
+### Risk Factors for Strokes
+Stroke Risk Factors: An overview of the main risk factors for stroke, including age, hypertension, diabetes, lifestyle choices, and family history. The CDC provides detailed information about how these factors contribute to stroke risk and offers advice on how to reduce the likelihood of having a stroke.
+[CDC's Stroke Risk Factors](https://www.cdc.gov/stroke/risk-factors/index.html)
 ## Conclusion
