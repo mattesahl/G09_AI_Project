@@ -155,8 +155,8 @@ plt.show()
 ```
 
 ## :mag: Evaluation & Analysis
-After we run our code, the output in the terminal looks like this: 
-![image](https://github.com/user-attachments/assets/000f5c91-e053-401c-a175-06c4a4a57638) <br>
+After we run our code, the output in the terminal looks like this:   
+![image](https://github.com/user-attachments/assets/000f5c91-e053-401c-a175-06c4a4a57638)    
 **Figure 1. Output in terminal.**
 
 As we can see in figure 1, the dataset is complete, and we have data for all variables of all the patients that are left in the dataset. We can also see the distribution of the target variable in our dataset, where 4700 patients did not have a stroke and 209 people did have it. We addressed this imbalance by using SMOTE (Synthetic Minority Oversampling Technique) to generate additional samples for the minority class. This was done in the oversampling part of the code. We did this to improve the training process since it otherwise would have favored the majority class (“no stroke”).
@@ -167,25 +167,25 @@ From the terminal output, we can see that the Random Forest model performed with
 This level of accuracy might seem suspiciously high, but when looking at other people analyzing the same dataset (but using a different method) this is not uncommon at all. Rather, in many instances we found people achieving above 97% accuracy. Therefore, we believe that our method is working well. It is also positive to see that the accuracy of predicting a stroke is so similar to the accuracy of predicting no stroke.
 
 ### Confusion Matrix
-![image](https://github.com/user-attachments/assets/a23175f7-2ecc-47f9-adc8-942f0e26dbed) <be>
+![image](https://github.com/user-attachments/assets/a23175f7-2ecc-47f9-adc8-942f0e26dbed)     
 **Figure 2. The Confusion Matrix.**
 
 Figure 2 (The Confusion Matrix) shows how the model predicted the test data. As we can see, the model correctly classified 867 patients with no stroke and 931 patients who had a stroke. In 23 instances the model predicted a no stroke when the correct answer was stroke (false negative) and similarly did it in 59 cases predicted a stroke when it should have been no stroke (false positive).
 
 ### Receiver Operating Characteristic (ROC) Curve
-![image](https://github.com/user-attachments/assets/8810de23-ca29-4645-9aa0-e45c0c83b924) <be>
+![image](https://github.com/user-attachments/assets/8810de23-ca29-4645-9aa0-e45c0c83b924)      
 **Figure 3. Receiver Operating Characteristic (ROC) Curve.**
 
 The ORC curve visualizes the relationship between the false positive rate and the true positive rate. That is a measurement of the correctness of the model. In our model, the AUC (Area Under the Curve) is calculated as 0.99. This shows an excellent model performance. The sketched blue line is where the ROC curve would be if we had blindly guessed on a large dataset.
 
 ### Feature Importance
-![image](https://github.com/user-attachments/assets/a12f2af1-aa33-4942-9aa7-683a3c795d1d) <be>
+![image](https://github.com/user-attachments/assets/a12f2af1-aa33-4942-9aa7-683a3c795d1d)     
 **Figure 4. Feature importance.**
 
 Figure 4 illustrates which feature has the most influence on a patient having a stroke. It shows that the patient’s age is the most important factor, with a calculated importance of over 40% in this case. This is very logical since it is known that stroke is more common to occur for older people. The two features following age are the patient’s average glucose level and then BMI. The differences between these three features and the rest are quite large, indicating that these are the three most important features. It is interesting to see how low importance hypertension and heart disease were calculated to have in our data (it seems to have a lower importance than whether the patient was married).
 
 ### Correlation Heatmap
-![image](https://github.com/user-attachments/assets/9f204254-f299-4fa1-a3c8-a648ad278cdd) <be>
+![image](https://github.com/user-attachments/assets/9f204254-f299-4fa1-a3c8-a648ad278cdd)      
 **Figure 5. Correlation Heatmap.**
 
 The Correlation Heatmap (figure 5) quantifies the linear relationships between the different variables. If we look at our target variable (stroke), it is easy to see that it had the highest correlation with age. This indicates a moderate positive correlation, which means that the older a person becomes, the bigger the likelihood of the person having a stroke. The same can be said for hypertension, average glucose level, and heart disease, which were the three variables showing a 0.14 correlation with stroke. 
