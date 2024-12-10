@@ -154,7 +154,7 @@ plt.title("Feature Importance")
 plt.show()
 ```
 
-## Evaluation & Analysis
+## :mag: Evaluation & Analysis
 After we run our code, the output in the terminal looks like this: 
 ![image](https://github.com/user-attachments/assets/000f5c91-e053-401c-a175-06c4a4a57638) <br>
 **Figure 1. Output in terminal.**
