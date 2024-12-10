@@ -2,7 +2,7 @@
 ## Group members
 | Name              | Department| University                                | Email                                |
 |-------------------|------------|---------------------------------------------|--------------------------------------|
-| Mattias Sahlstrand      |   | Hanyang University | mattias@hanyang.ac.kr                  |
+| Mattias Sahlstrand      | Mechanical Engineering  | Hanyang University | mattias@hanyang.ac.kr                  |
 | Pontus Donnér  |    |Hanyang University | pontus_donner@hotmail.com                       |
 | Belen Herranz Campusano |    | Hanyang University |  100495930@alumnos.uc3m.es  |
 | Hugo Nicolay |    | Hanyang University | nicolayhugo1@gmail.com   |
@@ -216,3 +216,4 @@ Random Forest in Practice: A detailed explanation and practical guide on how to 
 Stroke Risk Factors: An overview of the main risk factors for stroke, including age, hypertension, diabetes, lifestyle choices, and family history. The CDC provides detailed information about how these factors contribute to stroke risk and offers advice on how to reduce the likelihood of having a stroke.
 [CDC's Stroke Risk Factors](https://www.cdc.gov/stroke/risk-factors/index.html)
 ## Conclusion
+In conclusion, we have in this project successfully created a model that, with the application of machine learning techniques predicts whether a person is likely to have a stroke. This prediction is based on ten different clinical features: the patient’s gender, age, average glucose level, BMI, residence type, smoking status, kind of work, marriage status, and also information if the patient has hypertension or heart disease. In order to do so, we first performed preprocessing steps on the comprehensive dataset of 5110 patients (for example handling that the data set had missing values and solving problems with class imbalance through SMOTE) before training a Random Forest model on 80% of the data set. Our trained model achieved a prediction accuracy of 96% when we tested it on the remaining 20% of the dataset. This indicates that the model in an effective way can distinguish between stroke and non-stroke cases when given specific clinical features. The findings from our analysis indicate that age, average glucose level, and BMI are critical factors influencing stroke risk, where age is the most significant predictor.
