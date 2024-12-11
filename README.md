@@ -15,7 +15,60 @@ During this project, we will analyze a dataset (www.kaggle.com/datasets/fedesori
 
 ## Introduction 
 
+Strokes are one of the biggest health concerns in the world, ranking as the second leading cause of death according to the World Health Organization. Understanding the factors that contribute to stroke risk is crucial in predicting and potentially preventing such incidents. 
+
+To address this, we’ve developed a data-trained model capable of analyzing health and lifestyle data to predict the likelihood of a patient experiencing a stroke. By using machine learning, our goal is to create a reliable tool that uses datas from the past to make accurate predictions and provide valuable insights for healthcare professionals and researchers. 
+
+This project aims to simplify the process of risk assessment and offer a data-driven approach to stroke prediction. 
+
+
 ## Dataset
+
+Dataset Description:
+
+
+
+For this project, we are using a dataset that contains 5,110 entries with 12 columns. Each column contains  a specific detail about an individual, such as their health status and lifestyle choices, which are useful factors  in order to predict  stroke risks.
+
+
+
+Here are the 12 features included in the dataset:
+
+
+
+Id: Unique identifier for each entry.
+
+Gender: Gender of the individual.
+
+Age: Age in years.
+
+Hypertension: Indicates if the individual has hypertension (0 = No, 1 = Yes).
+
+Heart_Disease: Indicates if the individual has heart disease (0 = No, 1 = Yes).
+
+Ever_Married: Marital status (Yes/No).
+
+Work_Type: Type of employment (e.g., Private, Self-employed, etc.).
+
+Residence_Type: Living area (Urban/Rural).
+
+Avg_Glucose_Level: Average glucose level in blood (mg/dL).
+
+BMI: Body Mass Index.
+
+Smoking_Status: Smoking experience (Smokes, Used to smoke, Never smoked).
+
+Stroke: Indicates whether the individual has had a stroke (0 = No, 1 = Yes).
+
+Why this dataset?
+
+This dataset was chosen because it includes a lot of  various datas, which is important to increase the accuracy of the model. The combination of numerical and categorical features makes it ideal for machine learning applications.
+
+
+
+Observations and adjustments:
+
+During our analysis of the dataset, we noticed that some columns, such as BMI, contain missing values, while others, like Smoking_Status, include unknown data points. Handling these gaps will be the first task  in building a robust predictive model. Additionally, by focusing on the most impactful features, we want  to improve the model's accuracy. 
 
 ## :gear:	Methodology
 ### Imports
