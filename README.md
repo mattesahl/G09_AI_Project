@@ -24,17 +24,13 @@ This project aims to simplify the process of risk assessment and offer a data-dr
 
 ## Dataset
 
-Dataset Description:
-
-
+**Dataset Description:**
 
 For this project, we are using a dataset that contains 5,110 entries with 12 columns. Each column contains  a specific detail about an individual, such as their health status and lifestyle choices, which are useful factors  in order to predict  stroke risks.
 
 
 
 Here are the 12 features included in the dataset:
-
-
 
 Id: Unique identifier for each entry.
 
@@ -60,13 +56,11 @@ Smoking_Status: Smoking experience (Smokes, Used to smoke, Never smoked).
 
 Stroke: Indicates whether the individual has had a stroke (0 = No, 1 = Yes).
 
-Why this dataset?
+**Why this dataset?**
 
 This dataset was chosen because it includes a lot of  various datas, which is important to increase the accuracy of the model. The combination of numerical and categorical features makes it ideal for machine learning applications.
 
-
-
-Observations and adjustments:
+**Observations and adjustments:**
 
 During our analysis of the dataset, we noticed that some columns, such as BMI, contain missing values, while others, like Smoking_Status, include unknown data points. Handling these gaps will be the first task  in building a robust predictive model. Additionally, by focusing on the most impactful features, we want  to improve the model's accuracy. 
 
