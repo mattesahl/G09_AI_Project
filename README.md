@@ -7,6 +7,9 @@
 | Belen Herranz Campusano |  Computer Science  | Hanyang University |  100495930@alumnos.uc3m.es  |
 | Hugo Nicolay |    | Hanyang University | nicolayhugo1@gmail.com   |
 
+## Video Presentation
+https://youtu.be/aTsL5mmzH-E
+
 ## Research idea
 **Title:** Stroke prediction  
 
